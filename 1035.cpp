@@ -15,12 +15,13 @@
 |        Email:admin@masnn.ml       |
 |            Do not copy            |
 -----------------------------------*/
-#include<iostream>
-#include<iomanip>
+#include <iomanip>
+#include <iostream>
 using namespace std;
-double l,v;
+double l, v;
 int main() {
-    cin>>l>>v;
-    cout<<fixed<<setprecision(1)<<l*2/3<<'\n'<<l*2/3/v<<endl;
+    cin >> l >> v;
+    cout << fixed << setprecision(1) << l * 2 / 3 << '\n'
+         << l * 2 / 3 / v << endl;
     return 0;
 }

@@ -15,11 +15,11 @@
 |        Email:admin@masnn.ml       |
 |            Do not copy            |
 -----------------------------------*/
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main() {
     unsigned int a;
-    cin>>a;
-    cout<<(a<<16)+(a>>16)<<endl;
+    cin >> a;
+    cout << (a << 16) + (a >> 16) << endl;
     return 0;
 }
